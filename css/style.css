@@ -1,0 +1,1290 @@
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background: white;
+  box-shadow: 1px 2px 2px rgba(126, 126, 126, 0.623);
+  display: flex;
+  justify-content: space-between;
+}
+header .burgerMenu {
+  display: none;
+  width: 35px;
+  height: 35px;
+  margin-top: 12px;
+  margin-left: 10px;
+  border-radius: 20px;
+  background: white;
+}
+header .burgerMenu i {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  color: #5f6368;
+}
+header .logoHeader {
+  width: 100px;
+  display: flex;
+}
+header .logoHeader img {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  margin-top: 15px;
+  left: 10px;
+}
+header .logoHeader h2 a {
+  font-family: "Product Sans", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #5f6368;
+  font-weight: 400;
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+header .logoHeader h3 a {
+  font-family: "Product Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  position: absolute;
+  top: 22px;
+  left: 190px;
+  color: #5f6368;
+  font-size: 15px;
+}
+header .logoHeader h4 a {
+  font-family: "Product Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  position: absolute;
+  top: 22px;
+  left: 270px;
+  color: #5f6368;
+  font-size: 15px;
+}
+header nav {
+  margin-left: -10px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul .creat a {
+  color: rgba(39, 86, 255, 0.905);
+  margin-left: -50px;
+}
+header nav ul .creat a:hover {
+  background: rgba(191, 191, 191, 0.211);
+}
+header nav ul .google a {
+  background: rgba(39, 86, 255, 0.905);
+  color: white;
+}
+header nav ul .google a:hover {
+  background: rgba(0, 0, 95, 0.793);
+}
+header nav ul li button a {
+  text-decoration: none;
+  font-size: 19px;
+  padding: 15px;
+  border-radius: 5px;
+  color: rgba(42, 42, 42, 0.899);
+}
+header nav ul button {
+  margin: 20px auto auto 10px;
+  background: white;
+  border: none;
+}
+header #creat {
+  margin-left: -10px;
+}
+
+.googleWorks {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+}
+.googleWorks .googleInfo {
+  width: 50%;
+  height: 85vh;
+  color: #202124;
+}
+.googleWorks .googleInfo h1 {
+  font-size: 55px;
+  margin-top: 145px;
+  padding-left: 70px;
+  font-weight: 600;
+}
+.googleWorks .googleInfo p {
+  padding-left: 70px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+.googleWorks .googleProfile {
+  width: 50%;
+  height: 85vh;
+}
+.googleWorks .googleProfile #myVideo {
+  height: 88vh;
+  filter: 2px;
+}
+
+.mainBar {
+  width: 100%;
+  height: 55vh;
+  margin-top: 3px;
+  display: flex;
+}
+.mainBar h2, .mainBar .colorDiv, .mainBar .colorDi, .mainBar .colorD, .mainBar p {
+  margin-left: 40px;
+  margin-top: 5px;
+}
+.mainBar p {
+  line-height: 26px;
+  width: 75%;
+}
+.mainBar h2 {
+  font-size: 25px;
+  color: #202124;
+  font-weight: 400;
+  margin-top: 60px;
+}
+.mainBar .helpYou {
+  width: 33.34%;
+  height: 55vh;
+  border: 1px solid #E0E0E0;
+  background: rgba(208, 208, 208, 0.201);
+  color: #202124;
+}
+.mainBar .helpYou .colorDiv {
+  width: 35px;
+  height: 5px;
+  background: rgba(2, 124, 255, 0.7215686275);
+}
+.mainBar .buildYou {
+  width: 33.34%;
+  height: 55vh;
+  border: 1px solid #E0E0E0;
+  background: rgba(208, 208, 208, 0.201);
+  color: #202124;
+}
+.mainBar .buildYou .colorDi {
+  width: 35px;
+  height: 5px;
+  background: yellow;
+}
+.mainBar .protectYou {
+  width: 33.34%;
+  height: 55vh;
+  border: 1px solid #E0E0E0;
+  background: rgba(208, 208, 208, 0.201);
+  color: #202124;
+}
+.mainBar .protectYou .colorD {
+  width: 35px;
+  height: 5px;
+  background: green;
+}
+.mainBar .protectYou .arrowDown {
+  display: none;
+  width: 60px;
+  height: 60px;
+  background: rgba(2, 124, 255, 0.7215686275);
+  border-radius: 40px;
+  margin-top: -255px;
+  margin-left: 290px;
+  box-shadow: 3px 0px solid rgba(0, 0, 255, 0.216);
+}
+.mainBar .protectYou i {
+  color: white;
+  margin-top: 18px;
+  margin-left: 16px;
+  font-size: 27px;
+}
+
+@media (min-width: 1200px) {
+  header {
+    width: 100%;
+    height: 60px;
+    background: white;
+    box-shadow: 1px 2px 2px rgba(126, 126, 126, 0.623);
+    display: flex;
+    justify-content: space-between;
+  }
+  header .burgerMenu {
+    display: none;
+    width: 35px;
+    height: 35px;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background: white;
+  }
+  header .burgerMenu i {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    color: #5f6368;
+  }
+  header .logoHeader {
+    width: 100px;
+    display: flex;
+  }
+  header .logoHeader img {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    left: 10px;
+  }
+  header .logoHeader h2 a {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #5f6368;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+  }
+  header .logoHeader h3 a {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 22px;
+    left: 190px;
+    color: #5f6368;
+    font-size: 15px;
+  }
+  header .logoHeader h4 a {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 22px;
+    left: 270px;
+    color: #5f6368;
+    font-size: 15px;
+  }
+  header nav {
+    margin-left: -10px;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  header nav ul .creat a {
+    color: rgba(39, 86, 255, 0.905);
+    margin-left: -50px;
+  }
+  header nav ul .creat a:hover {
+    background: rgba(191, 191, 191, 0.211);
+  }
+  header nav ul .google a {
+    background: rgba(39, 86, 255, 0.905);
+    color: white;
+  }
+  header nav ul .google a:hover {
+    background: rgba(0, 0, 95, 0.793);
+  }
+  header nav ul li button a {
+    text-decoration: none;
+    font-size: 19px;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgba(42, 42, 42, 0.899);
+  }
+  header nav ul button {
+    margin: 20px auto auto 10px;
+    background: white;
+    border: none;
+  }
+  header #creat {
+    margin-left: -10px;
+  }
+  .googleWorks {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+  }
+  .googleWorks .googleInfo {
+    width: 50%;
+    height: 85vh;
+    color: #202124;
+  }
+  .googleWorks .googleInfo h1 {
+    font-size: 60px;
+    margin-top: 145px;
+    padding-left: 70px;
+    font-weight: 600;
+  }
+  .googleWorks .googleInfo p {
+    padding-left: 70px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+  .googleWorks .googleProfile {
+    width: 50%;
+    height: 85vh;
+  }
+  .googleWorks .googleProfile #myVideo {
+    height: 85vh;
+    filter: 2px;
+  }
+  .mainBar {
+    width: 100%;
+    height: 48vh;
+    margin-top: 3px;
+    display: flex;
+  }
+  .mainBar h2, .mainBar .colorDiv, .mainBar .colorDi, .mainBar .colorD, .mainBar p {
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+  .mainBar p {
+    line-height: 25px;
+  }
+  .mainBar h2 {
+    font-size: 25px;
+    color: #202124;
+    font-weight: 400;
+    margin-top: 70px;
+  }
+  .mainBar .helpYou {
+    width: 33.34%;
+    height: 48vh;
+    border: 1px solid #E0E0E0;
+    background: rgba(208, 208, 208, 0.201);
+    color: #202124;
+  }
+  .mainBar .helpYou .colorDiv {
+    width: 35px;
+    height: 5px;
+    background: rgba(2, 124, 255, 0.7215686275);
+  }
+  .mainBar .buildYou {
+    width: 33.34%;
+    height: 48vh;
+    border: 1px solid #E0E0E0;
+    background: rgba(208, 208, 208, 0.201);
+    color: #202124;
+  }
+  .mainBar .buildYou .colorDi {
+    width: 35px;
+    height: 5px;
+    background: yellow;
+  }
+  .mainBar .protectYou {
+    width: 33.34%;
+    height: 48vh;
+    border: 1px solid #E0E0E0;
+    background: rgba(208, 208, 208, 0.201);
+    color: #202124;
+  }
+  .mainBar .protectYou .colorD {
+    width: 35px;
+    height: 5px;
+    background: green;
+  }
+  .mainBar .protectYou .arrowDown {
+    width: 60px;
+    height: 60px;
+    background: rgba(2, 124, 255, 0.7215686275);
+    border-radius: 40px;
+    margin-top: -255px;
+    margin-left: 330px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 255, 0.216);
+  }
+  .mainBar .protectYou i {
+    color: white;
+    margin-top: 18px;
+    margin-left: 16px;
+    font-size: 27px;
+  }
+}
+@media (max-width: 992px) {
+  header {
+    width: 100%;
+    height: 60px;
+    background: white;
+    box-shadow: 1px 2px 2px rgba(126, 126, 126, 0.623);
+    display: flex;
+    justify-content: space-between;
+  }
+  header .burgerMenu {
+    display: none;
+    background: red;
+    width: 35px;
+    height: 35px;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background: white;
+  }
+  header .burgerMenu i {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    color: #5f6368;
+  }
+  header .logoHeader {
+    width: 100px;
+    display: flex;
+  }
+  header .logoHeader img {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    left: 10px;
+  }
+  header .logoHeader h2 a {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #5f6368;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+  }
+  header .logoHeader h3 a {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 22px;
+    left: 190px;
+    color: #5f6368;
+    font-size: 14px;
+  }
+  header .logoHeader h4 a {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 22px;
+    left: 270px;
+    color: #5f6368;
+    font-size: 14px;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  header nav ul .creat a {
+    color: rgba(39, 86, 255, 0.905);
+    margin-left: -50px;
+  }
+  header nav ul .creat a:hover {
+    background: rgba(191, 191, 191, 0.211);
+  }
+  header nav ul .google a {
+    background: rgba(39, 86, 255, 0.905);
+    color: white;
+  }
+  header nav ul .google a:hover {
+    background: rgba(0, 0, 95, 0.793);
+  }
+  header nav ul li button a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 13px;
+    border-radius: 5px;
+    color: rgba(42, 42, 42, 0.899);
+  }
+  header nav ul button {
+    margin: 20px auto auto 10px;
+    background: white;
+    border: none;
+  }
+  header #creat {
+    margin-left: -10px;
+  }
+  .googleWorks {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+  }
+  .googleWorks .googleInfo {
+    width: 100%;
+    height: 20vh;
+    color: #202124;
+    position: absolute;
+    top: 600px;
+  }
+  .googleWorks .googleInfo h1 {
+    position: absolute;
+    font-size: 40px;
+    margin-top: 0px;
+    font-weight: 500;
+    margin-left: -35px;
+  }
+  .googleWorks .googleInfo p {
+    position: absolute;
+    line-height: 25px;
+    margin-top: 60px;
+    margin-left: -35px;
+  }
+  .googleWorks .googleProfile {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 5px;
+  }
+  .googleWorks .googleProfile #myVideo {
+    height: 50vh;
+    filter: 2px;
+  }
+  .mainBar {
+    width: 100%;
+    height: 48vh;
+    margin-top: 180px;
+    display: block;
+  }
+  .mainBar h2, .mainBar .colorDiv, .mainBar .colorDi, .mainBar .colorD, .mainBar p {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .mainBar p {
+    line-height: 25px;
+    width: 90%;
+  }
+  .mainBar h2 {
+    font-size: 20px;
+    color: #202124;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .mainBar .helpYou {
+    width: 100%;
+    height: 23vh;
+    border: 1px solid #E0E0E0;
+    background: rgba(208, 208, 208, 0.201);
+    color: #202124;
+  }
+  .mainBar .helpYou .colorDiv {
+    width: 35px;
+    height: 5px;
+    background: rgba(2, 124, 255, 0.7215686275);
+  }
+  .mainBar .buildYou {
+    width: 100%;
+    height: 23vh;
+    border: 1px solid #E0E0E0;
+    background: rgba(208, 208, 208, 0.201);
+    color: #202124;
+  }
+  .mainBar .buildYou .colorDi {
+    width: 35px;
+    height: 5px;
+    background: yellow;
+  }
+  .mainBar .protectYou {
+    width: 100%;
+    height: 23vh;
+    border: 1px solid #E0E0E0;
+    background: rgba(208, 208, 208, 0.201);
+    color: #202124;
+  }
+  .mainBar .protectYou .colorD {
+    width: 35px;
+    height: 5px;
+    background: green;
+  }
+  .mainBar .protectYou .arrowDown {
+    display: none;
+    width: 60px;
+    height: 60px;
+    background: rgba(2, 124, 255, 0.7215686275);
+    border-radius: 40px;
+    margin-top: -255px;
+    margin-left: 360px;
+    box-shadow: 3px 0px solid rgba(0, 0, 255, 0.216);
+  }
+  .mainBar .protectYou i {
+    color: white;
+    margin-top: 18px;
+    margin-left: 16px;
+    font-size: 27px;
+  }
+}
+@media (max-width: 765px) {
+  header {
+    width: 100%;
+    height: 55px;
+    background: white;
+    box-shadow: 1px 2px 2px rgba(126, 126, 126, 0.623);
+    display: flex;
+    justify-content: space-between;
+  }
+  header .burgerMenu {
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+  }
+  header .burgerMenu:hover {
+    background: rgba(191, 191, 191, 0.211);
+  }
+  header .burgerMenu i {
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #5f6368;
+    width: 40px;
+  }
+  header .logoHeader {
+    width: 100px;
+    display: flex;
+  }
+  header .logoHeader img {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    left: 40px;
+  }
+  header .logoHeader h2 a {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #5f6368;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left: 130px;
+  }
+  header .logoHeader h3 a {
+    display: none;
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 22px;
+    left: 200px;
+    color: #5f6368;
+    font-size: 14px;
+  }
+  header .logoHeader h4 a {
+    display: none;
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 22px;
+    left: 280px;
+    color: #5f6368;
+    font-size: 14px;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  header nav ul .creat a {
+    display: none;
+    color: rgba(39, 86, 255, 0.905);
+    margin-left: -50px;
+  }
+  header nav ul .creat a:hover {
+    background: rgba(191, 191, 191, 0.211);
+  }
+  header nav ul .google a {
+    background: rgba(39, 86, 255, 0.905);
+    color: white;
+  }
+  header nav ul .google a:hover {
+    background: rgba(0, 0, 95, 0.793);
+  }
+  header nav ul li button a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 13px;
+    border-radius: 5px;
+    color: rgba(42, 42, 42, 0.899);
+  }
+  header nav ul button {
+    margin: 20px auto auto 10px;
+    background: white;
+    border: none;
+  }
+  header #creat {
+    margin-left: -10px;
+  }
+  header .togglediv {
+    width: 100%;
+    height: 100vh;
+    background: black;
+  }
+  .togglediv {
+    position: relative;
+    top: 0px;
+    right: 0%;
+    width: 100%;
+    height: 100vh;
+    background: rgba(62, 62, 62, 0.595);
+    transition: 5s;
+  }
+  .togglediv.active {
+    right: 0%;
+    transition: 5s;
+  }
+  .togglediv .sideNav {
+    width: 280px;
+    height: 100vh;
+    position: fixed;
+    background: white;
+    top: 0px;
+  }
+  .togglediv .sideNav .logoHeader {
+    width: 280px;
+    height: 55px;
+    border-bottom: 1px solid rgba(191, 191, 191, 0.211);
+    display: flex;
+  }
+  .togglediv .sideNav .logoHeader img {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    left: 10px;
+  }
+  .togglediv .sideNav .logoHeader h2 a {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #5f6368;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+  }
+  .togglediv .sideNav .headOne {
+    width: 280px;
+    height: 55px;
+    border-bottom: 1px solid rgba(191, 191, 191, 0.211);
+    background: rgba(191, 191, 191, 0.211);
+  }
+  .togglediv .sideNav .headOne h3 a {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #5f6368;
+    position: absolute;
+    top: 75px;
+    left: 25px;
+    font-size: 15px;
+  }
+  .togglediv .sideNav .headTwo {
+    width: 280px;
+    height: 55px;
+  }
+  .togglediv .sideNav .headTwo:hover {
+    background: rgba(191, 191, 191, 0.211);
+  }
+  .togglediv .sideNav .headTwo h4 a {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #5f6368;
+    position: absolute;
+    top: 130px;
+    left: 25px;
+    font-size: 15px;
+  }
+  .togglediv .sideNav .finalDiv {
+    width: 280px;
+    height: 100px;
+    border-top: 1px solid rgba(191, 191, 191, 0.211);
+    margin-top: 350px;
+  }
+  .togglediv .sideNav .finalDiv ul {
+    list-style: none;
+    display: block;
+    justify-content: center;
+  }
+  .togglediv .sideNav .finalDiv ul .creat a {
+    color: rgba(39, 86, 255, 0.905);
+    margin-left: 50px;
+  }
+  .togglediv .sideNav .finalDiv ul .creat a:hover {
+    background: rgba(191, 191, 191, 0.211);
+  }
+  .togglediv .sideNav .finalDiv ul .google a {
+    background: rgba(39, 86, 255, 0.905);
+    color: white;
+    margin-top: 10px;
+  }
+  .togglediv .sideNav .finalDiv ul .google a:hover {
+    background: rgba(0, 0, 95, 0.793);
+  }
+  .togglediv .sideNav .finalDiv ul li button a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 13px;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin-left: 30px;
+    color: rgba(42, 42, 42, 0.899);
+  }
+  .togglediv .sideNav .finalDiv ul button {
+    margin: 20px auto auto 10px;
+    background: white;
+    border: none;
+  }
+  .googleWorks {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+  }
+  .googleWorks .googleInfo {
+    width: 100%;
+    height: 20vh;
+    color: #202124;
+    position: absolute;
+    top: 360px;
+  }
+  .googleWorks .googleInfo h1 {
+    position: absolute;
+    font-size: 40px;
+    margin-top: 0px;
+    font-weight: 500;
+    margin-left: -35px;
+  }
+  .googleWorks .googleInfo p {
+    position: absolute;
+    line-height: 25px;
+    margin-top: 100px;
+    margin-left: -35px;
+  }
+  .googleWorks .googleProfile {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 10px;
+  }
+  .googleWorks .googleProfile #myVideo {
+    height: 50vh;
+    filter: 2px;
+  }
+  .mainBar {
+    width: 100%;
+    height: 48vh;
+    margin-top: 10px;
+    display: block;
+  }
+  .mainBar h2, .mainBar .colorDiv, .mainBar .colorDi, .mainBar .colorD, .mainBar p {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .mainBar p {
+    line-height: 25px;
+    width: 90%;
+  }
+  .mainBar h2 {
+    font-size: 20px;
+    color: #202124;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .mainBar .helpYou {
+    width: 100%;
+    height: 28vh;
+    border: 1px solid #E0E0E0;
+    background: rgba(208, 208, 208, 0.201);
+    color: #202124;
+  }
+  .mainBar .helpYou .colorDiv {
+    width: 35px;
+    height: 5px;
+    background: rgba(2, 124, 255, 0.7215686275);
+  }
+  .mainBar .buildYou {
+    width: 100%;
+    height: 28vh;
+    border: 1px solid #E0E0E0;
+    background: rgba(208, 208, 208, 0.201);
+    color: #202124;
+  }
+  .mainBar .buildYou .colorDi {
+    width: 35px;
+    height: 5px;
+    background: yellow;
+  }
+  .mainBar .protectYou {
+    width: 100%;
+    height: 28vh;
+    border: 1px solid #E0E0E0;
+    background: rgba(208, 208, 208, 0.201);
+    color: #202124;
+  }
+  .mainBar .protectYou .colorD {
+    width: 35px;
+    height: 5px;
+    background: green;
+  }
+  .mainBar .protectYou .arrowDown {
+    display: none;
+    width: 60px;
+    height: 60px;
+    background: rgba(2, 124, 255, 0.7215686275);
+    border-radius: 40px;
+    margin-top: -255px;
+    margin-left: 360px;
+    box-shadow: 3px 0px solid rgba(0, 0, 255, 0.216);
+  }
+  .mainBar .protectYou i {
+    color: white;
+    margin-top: 18px;
+    margin-left: 16px;
+    font-size: 27px;
+  }
+}
+@media (max-width: 576px) {
+  header {
+    width: 100%;
+    height: 55px;
+    background: white;
+    box-shadow: 1px 2px 2px rgba(126, 126, 126, 0.623);
+    display: flex;
+    justify-content: space-between;
+  }
+  header .burgerMenu {
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+  }
+  header .burgerMenu:hover {
+    background: rgba(191, 191, 191, 0.211);
+  }
+  header .burgerMenu i {
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #5f6368;
+    width: 40px;
+  }
+  header .logoHeader {
+    width: 100px;
+    display: flex;
+  }
+  header .logoHeader img {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    left: 40px;
+  }
+  header .logoHeader h2 a {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #5f6368;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left: 130px;
+  }
+  header .logoHeader h3 a {
+    display: none;
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 22px;
+    left: 200px;
+    color: #5f6368;
+    font-size: 14px;
+  }
+  header .logoHeader h4 a {
+    display: none;
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 22px;
+    left: 280px;
+    color: #5f6368;
+    font-size: 14px;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  header nav ul .creat a {
+    display: none;
+    color: rgba(39, 86, 255, 0.905);
+    margin-left: -50px;
+  }
+  header nav ul .creat a:hover {
+    background: rgba(191, 191, 191, 0.211);
+  }
+  header nav ul .google a {
+    background: rgba(39, 86, 255, 0.905);
+    color: white;
+  }
+  header nav ul .google a:hover {
+    background: rgba(0, 0, 95, 0.793);
+  }
+  header nav ul li button a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 13px;
+    border-radius: 5px;
+    color: rgba(42, 42, 42, 0.899);
+  }
+  header nav ul button {
+    margin: 20px auto auto 10px;
+    background: white;
+    border: none;
+  }
+  header #creat {
+    margin-left: -10px;
+  }
+  header .togglediv {
+    width: 100%;
+    height: 100vh;
+    background: black;
+  }
+  .togglediv {
+    position: relative;
+    top: 0px;
+    right: 0%;
+    width: 100%;
+    height: 100vh;
+    background: rgba(62, 62, 62, 0.595);
+    transition: 5s;
+  }
+  .togglediv.active {
+    right: 0%;
+    transition: 5s;
+  }
+  .togglediv .sideNav {
+    width: 280px;
+    height: 100vh;
+    position: fixed;
+    background: white;
+    top: 0px;
+  }
+  .togglediv .sideNav .logoHeader {
+    width: 280px;
+    height: 55px;
+    border-bottom: 1px solid rgba(191, 191, 191, 0.211);
+    display: flex;
+  }
+  .togglediv .sideNav .logoHeader img {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    left: 10px;
+  }
+  .togglediv .sideNav .logoHeader h2 a {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #5f6368;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+  }
+  .togglediv .sideNav .headOne {
+    width: 280px;
+    height: 55px;
+    border-bottom: 1px solid rgba(191, 191, 191, 0.211);
+    background: rgba(191, 191, 191, 0.211);
+  }
+  .togglediv .sideNav .headOne h3 a {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #5f6368;
+    position: absolute;
+    top: 75px;
+    left: 25px;
+    font-size: 15px;
+  }
+  .togglediv .sideNav .headTwo {
+    width: 280px;
+    height: 55px;
+  }
+  .togglediv .sideNav .headTwo:hover {
+    background: rgba(191, 191, 191, 0.211);
+  }
+  .togglediv .sideNav .headTwo h4 a {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #5f6368;
+    position: absolute;
+    top: 130px;
+    left: 25px;
+    font-size: 15px;
+  }
+  .togglediv .sideNav .finalDiv {
+    width: 280px;
+    height: 100px;
+    border-top: 1px solid rgba(191, 191, 191, 0.211);
+    margin-top: 350px;
+  }
+  .togglediv .sideNav .finalDiv ul {
+    list-style: none;
+    display: block;
+    justify-content: center;
+  }
+  .togglediv .sideNav .finalDiv ul .creat a {
+    color: rgba(39, 86, 255, 0.905);
+    margin-left: 50px;
+  }
+  .togglediv .sideNav .finalDiv ul .creat a:hover {
+    background: rgba(191, 191, 191, 0.211);
+  }
+  .togglediv .sideNav .finalDiv ul .google a {
+    background: rgba(39, 86, 255, 0.905);
+    color: white;
+    margin-top: 10px;
+  }
+  .togglediv .sideNav .finalDiv ul .google a:hover {
+    background: rgba(0, 0, 95, 0.793);
+  }
+  .togglediv .sideNav .finalDiv ul li button a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 13px;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin-left: 30px;
+    color: rgba(42, 42, 42, 0.899);
+  }
+  .togglediv .sideNav .finalDiv ul button {
+    margin: 20px auto auto 10px;
+    background: white;
+    border: none;
+  }
+  .googleWorks {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+  }
+  .googleWorks .googleInfo {
+    width: 100%;
+    height: 20vh;
+    color: #202124;
+    position: absolute;
+    top: 280px;
+  }
+  .googleWorks .googleInfo h1 {
+    position: absolute;
+    font-size: 40px;
+    margin-top: 0px;
+    font-weight: 500;
+    margin-left: -35px;
+  }
+  .googleWorks .googleInfo p {
+    position: absolute;
+    line-height: 25px;
+    margin-top: 100px;
+    margin-left: -35px;
+  }
+  .googleWorks .googleProfile {
+    width: 100%;
+    height: 35vh;
+    position: absolute;
+    top: 10px;
+  }
+  .googleWorks .googleProfile #myVideo {
+    height: 35vh;
+    filter: 2px;
+  }
+  .mainBar {
+    width: 100%;
+    height: 48vh;
+    margin-top: -40px;
+    display: block;
+  }
+  .mainBar h2, .mainBar .colorDiv, .mainBar .colorDi, .mainBar .colorD, .mainBar p {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .mainBar p {
+    line-height: 25px;
+    width: 90%;
+  }
+  .mainBar h2 {
+    font-size: 20px;
+    color: #202124;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .mainBar .helpYou {
+    width: 100%;
+    height: 32vh;
+    border: 1px solid #E0E0E0;
+    background: rgba(208, 208, 208, 0.201);
+    color: #202124;
+  }
+  .mainBar .helpYou .colorDiv {
+    width: 35px;
+    height: 5px;
+    background: rgba(2, 124, 255, 0.7215686275);
+  }
+  .mainBar .buildYou {
+    width: 100%;
+    height: 32vh;
+    border: 1px solid #E0E0E0;
+    background: rgba(208, 208, 208, 0.201);
+    color: #202124;
+  }
+  .mainBar .buildYou .colorDi {
+    width: 35px;
+    height: 5px;
+    background: yellow;
+  }
+  .mainBar .protectYou {
+    width: 100%;
+    height: 32vh;
+    border: 1px solid #E0E0E0;
+    background: rgba(208, 208, 208, 0.201);
+    color: #202124;
+  }
+  .mainBar .protectYou .colorD {
+    width: 35px;
+    height: 5px;
+    background: green;
+  }
+  .mainBar .protectYou .arrowDown {
+    display: none;
+    width: 60px;
+    height: 60px;
+    background: rgba(2, 124, 255, 0.7215686275);
+    border-radius: 40px;
+    margin-top: -255px;
+    margin-left: 360px;
+    box-shadow: 3px 0px solid rgba(0, 0, 255, 0.216);
+  }
+  .mainBar .protectYou i {
+    color: white;
+    margin-top: 18px;
+    margin-left: 16px;
+    font-size: 27px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,40 @@
+.googleWorks{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    
+
+   .googleInfo{
+    width: 100%;
+    height: 20vh;
+    color: $text_color;
+    position: absolute;
+    top: 600px;
+
+    h1{
+        position: absolute;
+        font-size: 40px;
+        margin-top: 0px;    
+        font-weight: 500;
+        margin-left: -35px;
+    }
+    p{
+        position: absolute;
+        line-height: 25px;
+        margin-top: 60px;
+        margin-left: -35px;
+    }
+   }
+
+   .googleProfile{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 5px;
+
+    #myVideo{
+        height: 50vh;
+        filter: 2px;
+    }
+   }
+}

@@ -1,0 +1,61 @@
+@import './setup';
+
+@mixin logoStyle ($left) {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 22px;
+    left: $left;
+    color: #5f6368;
+}
+
+@mixin imgStyle {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    left: 10px;
+}
+@mixin h4Style ($top) {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+                font-weight: 400;
+                text-decoration: none;
+                color: #5f6368;
+                position: absolute;
+                top: $top;
+                left: 25px;
+                font-size: 15px;
+}
+
+@import './header';
+@import './section1';   
+@import './section2';
+// @import './section';
+@media (min-width: 1200px) {
+    @import './large/large';
+    @import './large/section1';
+    @import './large/section2';
+    // @import './large/section';
+}
+
+@media (max-width: 992px) {
+    @import './normal/normal';
+    @import './normal/section1';
+    @import './normal/section2';  
+    // @import './normal/section';
+}
+
+@media (max-width: 765px) {
+    @import './tablet/tablet';
+    @import './tablet/section';
+    @import './tablet/section1';
+    @import './tablet/section2';
+}
+
+@media (max-width: 576px) {
+    @import './mobile/mobile';
+    @import './mobile/section';
+    @import './mobile/section1';
+    @import './mobile/section2';
+}
