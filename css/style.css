@@ -1346,7 +1346,7 @@ header #creat {
     line-height: 26px;
   }
   .sectionFour {
-    width: 100%;
+    width: 95%;
     height: 70px;
     position: relative;
     margin-top: 350px;
@@ -1355,7 +1355,7 @@ header #creat {
     width: 95%;
     height: 50px;
     position: absolute;
-    left: 30px;
+    left: 10px;
     display: flex;
   }
   .sectionFour .topSection .divOne {
@@ -1528,7 +1528,7 @@ header #creat {
   header nav ul li button a {
     text-decoration: none;
     font-size: 14px;
-    padding: 13px;
+    padding: 9px;
     border-radius: 5px;
     color: rgba(42, 42, 42, 0.899);
   }
@@ -1801,5 +1801,101 @@ header #creat {
     color: #202124;
     font-size: 16px;
     line-height: 26px;
+  }
+  .sectionFour {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    margin-top: 560px;
+  }
+  .sectionFour .topSection {
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top: 370px;
+    z-index: 3;
+    display: flex;
+  }
+  .sectionFour .topSection .divOne {
+    width: 33.33%;
+    height: 5px;
+    background: rgba(128, 128, 128, 0.334);
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+  }
+  .sectionFour .topSection .divOne:focus {
+    background: #3991df;
+  }
+  .sectionFour .topSection .divOne:focus:hover {
+    color: #3991df;
+  }
+  .sectionFour .topSection .divOne p {
+    display: none;
+    margin-top: -40px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .sectionFour .autoFill {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0px;
+    display: block;
+  }
+  .sectionFour .autoFill .googleInfo {
+    width: 100%;
+    height: 40vh;
+    color: #202124;
+    position: absolute;
+    top: 90px;
+    text-align: center;
+  }
+  .sectionFour .autoFill .googleInfo p {
+    padding-left: 30px;
+    line-height: 25px;
+    padding-top: 200px;
+  }
+  .sectionFour .autoFill .googleProfile {
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 0;
+  }
+  .sectionFour .autoFill .googleProfile #myVideo {
+    width: 100%;
+    height: 40vh;
+    margin-top: 2px;
+    margin-left: -30px;
+  }
+  .sectionFour .workBetter {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 60px;
+    display: flex;
+  }
+  .sectionFour .workBetter .googleImport {
+    width: 38%;
+    height: 70vh;
+    color: #202124;
+  }
+  .sectionFour .workBetter .googleImport p {
+    padding-left: 30px;
+    line-height: 25px;
+    padding-top: 200px;
+  }
+  .sectionFour .workBetter .googleProfile {
+    width: 55%;
+    height: 70vh;
+  }
+  .sectionFour .workBetter .googleProfile #myVideo {
+    width: 90%;
+    height: 70vh;
+    margin-top: -20px;
+    margin-left: 90px;
   }
 }/*# sourceMappingURL=style.css.map */

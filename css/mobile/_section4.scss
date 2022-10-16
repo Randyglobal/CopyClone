@@ -1,14 +1,16 @@
 .sectionFour{
-    width: 95%;
+    width: 100%;
     height: 70px;
     position: relative;
-    margin-top: 350px;
+    margin-top: 560px;
 
     .topSection{
-        width: 95%;
+        width: 80%;
         height: 50px;
         position: absolute;
-        left: 10px;
+        left: 50px;
+        top: 370px;
+        z-index: 3;
         display: flex;
 
         .divOne{
@@ -30,6 +32,7 @@
             }
             
             p{
+                display: none;
                margin-top: -40px;
                font-size: 16px;
                font-weight: 500;
@@ -40,13 +43,16 @@
     width: 100%;
     height: 70vh;
     position: absolute;
-    top: 60px;
-    display: flex;
+    top: 0px;
+    display: block;
 
     .googleInfo{
-        width: 38%;
-        height: 70vh;
+        width: 100%;
+        height: 40vh;
         color: $text_color;
+        position: absolute;
+        top: 90px;
+        text-align: center;
         // margin-left: 10px;
     
         p{
@@ -57,14 +63,16 @@
        }
     
        .googleProfile{
-        width: 55%;
-        height: 70vh;
+        width: 100%;
+        height: 30vh;
+        position: absolute;
+        top: 0;
     
         #myVideo{
-            width: 90%;
-            height: 70vh;
-            margin-top: -20px;
-            margin-left: 90px;
+            width: 100%;
+            height: 40vh;
+            margin-top: 2px;
+            margin-left: -30px;
         }
        }
     }
