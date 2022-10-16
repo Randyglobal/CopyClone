@@ -22,3 +22,6 @@ kandy.addEventListener('click', function(){
         kandy.style.display = 'block';
     }
 })
+
+
+

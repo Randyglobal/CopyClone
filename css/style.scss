@@ -31,11 +31,15 @@
 @import './header';
 @import './section1';   
 @import './section2';
+@import './section3';
+@import './section4';
 // @import './section';
 @media (min-width: 1200px) {
     @import './large/large';
     @import './large/section1';
     @import './large/section2';
+    @import './large/section3';
+    @import './large/section4';
     // @import './large/section';
 }
 
@@ -43,6 +47,8 @@
     @import './normal/normal';
     @import './normal/section1';
     @import './normal/section2';  
+    @import './normal/section3';
+    @import './normal/section4';
     // @import './normal/section';
 }
 
@@ -51,6 +57,8 @@
     @import './tablet/section';
     @import './tablet/section1';
     @import './tablet/section2';
+    @import './tablet/section3';
+    @import './tablet/section4';
 }
 
 @media (max-width: 576px) {
@@ -58,4 +66,5 @@
     @import './mobile/section';
     @import './mobile/section1';
     @import './mobile/section2';
+    @import './mobile/section3';
 }

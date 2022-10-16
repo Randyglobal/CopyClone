@@ -210,6 +210,126 @@ header #creat {
   font-size: 27px;
 }
 
+.readyTo {
+  width: 100%;
+  height: 83vh;
+  position: relative;
+}
+.readyTo .profileGoogle {
+  width: 40%;
+  height: 200px;
+  position: absolute;
+  top: 90px;
+  left: 350px;
+}
+.readyTo .profileGoogle img {
+  margin-left: 100px;
+}
+.readyTo .profileGoogle h1 {
+  font-size: 58px;
+  font-weight: 600;
+  margin-top: -20px;
+  color: #202124;
+  font-weight: 500;
+}
+.readyTo p {
+  width: 54%;
+  padding-top: 370px;
+  margin-left: 250px;
+  text-align: center;
+  color: #202124;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.sectionFour {
+  width: 100%;
+  height: 70px;
+  position: relative;
+}
+.sectionFour .topSection {
+  width: 95%;
+  height: 50px;
+  position: absolute;
+  left: 30px;
+  display: flex;
+}
+.sectionFour .topSection .divOne {
+  width: 33.33%;
+  height: 5px;
+  background: rgba(128, 128, 128, 0.334);
+  margin-top: 40px;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+}
+.sectionFour .topSection .divOne:focus {
+  background: #3991df;
+}
+.sectionFour .topSection .divOne:focus:hover {
+  color: #3991df;
+}
+.sectionFour .topSection .divOne p {
+  margin-top: -40px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.sectionFour .autoFill {
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+  top: 60px;
+  display: flex;
+}
+.sectionFour .autoFill .googleInfo {
+  width: 38%;
+  height: 70vh;
+  color: #202124;
+}
+.sectionFour .autoFill .googleInfo p {
+  padding-left: 30px;
+  line-height: 25px;
+  padding-top: 200px;
+}
+.sectionFour .autoFill .googleProfile {
+  width: 55%;
+  height: 70vh;
+}
+.sectionFour .autoFill .googleProfile #myVideo {
+  width: 90%;
+  height: 70vh;
+  margin-top: -20px;
+  margin-left: 90px;
+}
+.sectionFour .workBetter {
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+  top: 60px;
+  display: flex;
+}
+.sectionFour .workBetter .googleImport {
+  width: 38%;
+  height: 70vh;
+  color: #202124;
+}
+.sectionFour .workBetter .googleImport p {
+  padding-left: 30px;
+  line-height: 25px;
+  padding-top: 200px;
+}
+.sectionFour .workBetter .googleProfile {
+  width: 55%;
+  height: 70vh;
+}
+.sectionFour .workBetter .googleProfile #myVideo {
+  width: 90%;
+  height: 70vh;
+  margin-top: -20px;
+  margin-left: 90px;
+}
+
 @media (min-width: 1200px) {
   header {
     width: 100%;
@@ -409,6 +529,124 @@ header #creat {
     margin-top: 18px;
     margin-left: 16px;
     font-size: 27px;
+  }
+  .readyTo {
+    width: 100%;
+    height: 83vh;
+    position: relative;
+  }
+  .readyTo .profileGoogle {
+    width: 40%;
+    height: 200px;
+    position: absolute;
+    top: 90px;
+    left: 480px;
+  }
+  .readyTo .profileGoogle img {
+    margin-left: 100px;
+  }
+  .readyTo .profileGoogle h1 {
+    font-size: 58px;
+    font-weight: 600;
+    margin-top: -20px;
+    color: #202124;
+    font-weight: 500;
+  }
+  .readyTo p {
+    width: 54%;
+    padding-top: 370px;
+    margin-left: 310px;
+    text-align: center;
+    color: #202124;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .sectionFour {
+    width: 100%;
+    height: 70px;
+    position: relative;
+  }
+  .sectionFour .topSection {
+    width: 95%;
+    height: 50px;
+    position: absolute;
+    left: 30px;
+    display: flex;
+  }
+  .sectionFour .topSection .divOne {
+    width: 33.33%;
+    height: 5px;
+    background: rgba(128, 128, 128, 0.334);
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+  }
+  .sectionFour .topSection .divOne:focus {
+    background: #3991df;
+  }
+  .sectionFour .topSection .divOne:focus:hover {
+    color: #3991df;
+  }
+  .sectionFour .topSection .divOne p {
+    margin-top: -40px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .sectionFour .autoFill {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 60px;
+    display: flex;
+  }
+  .sectionFour .autoFill .googleInfo {
+    width: 38%;
+    height: 70vh;
+    color: #202124;
+  }
+  .sectionFour .autoFill .googleInfo p {
+    padding-left: 30px;
+    line-height: 25px;
+    padding-top: 200px;
+  }
+  .sectionFour .autoFill .googleProfile {
+    width: 55%;
+    height: 70vh;
+  }
+  .sectionFour .autoFill .googleProfile #myVideo {
+    width: 90%;
+    height: 70vh;
+    margin-top: -20px;
+    margin-left: 90px;
+  }
+  .sectionFour .workBetter {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 60px;
+    display: flex;
+  }
+  .sectionFour .workBetter .googleImport {
+    width: 38%;
+    height: 70vh;
+    color: #202124;
+  }
+  .sectionFour .workBetter .googleImport p {
+    padding-left: 30px;
+    line-height: 25px;
+    padding-top: 200px;
+  }
+  .sectionFour .workBetter .googleProfile {
+    width: 55%;
+    height: 70vh;
+  }
+  .sectionFour .workBetter .googleProfile #myVideo {
+    width: 90%;
+    height: 70vh;
+    margin-top: -20px;
+    margin-left: 90px;
   }
 }
 @media (max-width: 992px) {
@@ -616,6 +854,127 @@ header #creat {
     margin-top: 18px;
     margin-left: 16px;
     font-size: 27px;
+  }
+  .readyTo {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    top: 280px;
+  }
+  .readyTo .profileGoogle {
+    width: 40%;
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+  }
+  .readyTo .profileGoogle img {
+    margin-left: 100px;
+  }
+  .readyTo .profileGoogle h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 120px;
+    margin-top: -20px;
+    color: #202124;
+    font-weight: 500;
+  }
+  .readyTo p {
+    width: 100%;
+    padding-top: 300px;
+    margin-left: 0px;
+    text-align: center;
+    color: #202124;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .sectionFour {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    margin-top: 350px;
+  }
+  .sectionFour .topSection {
+    width: 95%;
+    height: 50px;
+    position: absolute;
+    left: 30px;
+    display: flex;
+  }
+  .sectionFour .topSection .divOne {
+    width: 33.33%;
+    height: 5px;
+    background: rgba(128, 128, 128, 0.334);
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+  }
+  .sectionFour .topSection .divOne:focus {
+    background: #3991df;
+  }
+  .sectionFour .topSection .divOne:focus:hover {
+    color: #3991df;
+  }
+  .sectionFour .topSection .divOne p {
+    margin-top: -40px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .sectionFour .autoFill {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 60px;
+    display: flex;
+  }
+  .sectionFour .autoFill .googleInfo {
+    width: 38%;
+    height: 70vh;
+    color: #202124;
+  }
+  .sectionFour .autoFill .googleInfo p {
+    padding-left: 30px;
+    line-height: 25px;
+    padding-top: 200px;
+  }
+  .sectionFour .autoFill .googleProfile {
+    width: 55%;
+    height: 70vh;
+  }
+  .sectionFour .autoFill .googleProfile #myVideo {
+    width: 90%;
+    height: 70vh;
+    margin-top: -20px;
+    margin-left: 90px;
+  }
+  .sectionFour .workBetter {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 60px;
+    display: flex;
+  }
+  .sectionFour .workBetter .googleImport {
+    width: 38%;
+    height: 70vh;
+    color: #202124;
+  }
+  .sectionFour .workBetter .googleImport p {
+    padding-left: 30px;
+    line-height: 25px;
+    padding-top: 200px;
+  }
+  .sectionFour .workBetter .googleProfile {
+    width: 55%;
+    height: 70vh;
+  }
+  .sectionFour .workBetter .googleProfile #myVideo {
+    width: 90%;
+    height: 70vh;
+    margin-top: -20px;
+    margin-left: 90px;
   }
 }
 @media (max-width: 765px) {
@@ -952,6 +1311,128 @@ header #creat {
     margin-left: 16px;
     font-size: 27px;
   }
+  .readyTo {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    top: 250px;
+  }
+  .readyTo .profileGoogle {
+    width: 40%;
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    text-align: center;
+  }
+  .readyTo .profileGoogle img {
+    margin-left: 50px;
+  }
+  .readyTo .profileGoogle h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: -20px;
+    color: #202124;
+    font-weight: 500;
+  }
+  .readyTo p {
+    width: 100%;
+    padding-top: 270px;
+    margin-left: 0px;
+    text-align: center;
+    color: #202124;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .sectionFour {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    margin-top: 350px;
+  }
+  .sectionFour .topSection {
+    width: 95%;
+    height: 50px;
+    position: absolute;
+    left: 30px;
+    display: flex;
+  }
+  .sectionFour .topSection .divOne {
+    width: 33.33%;
+    height: 5px;
+    background: rgba(128, 128, 128, 0.334);
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+  }
+  .sectionFour .topSection .divOne:focus {
+    background: #3991df;
+  }
+  .sectionFour .topSection .divOne:focus:hover {
+    color: #3991df;
+  }
+  .sectionFour .topSection .divOne p {
+    margin-top: -40px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .sectionFour .autoFill {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 60px;
+    display: flex;
+  }
+  .sectionFour .autoFill .googleInfo {
+    width: 38%;
+    height: 70vh;
+    color: #202124;
+  }
+  .sectionFour .autoFill .googleInfo p {
+    padding-left: 30px;
+    line-height: 25px;
+    padding-top: 200px;
+  }
+  .sectionFour .autoFill .googleProfile {
+    width: 55%;
+    height: 70vh;
+  }
+  .sectionFour .autoFill .googleProfile #myVideo {
+    width: 90%;
+    height: 70vh;
+    margin-top: -20px;
+    margin-left: 90px;
+  }
+  .sectionFour .workBetter {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 60px;
+    display: flex;
+  }
+  .sectionFour .workBetter .googleImport {
+    width: 38%;
+    height: 70vh;
+    color: #202124;
+  }
+  .sectionFour .workBetter .googleImport p {
+    padding-left: 30px;
+    line-height: 25px;
+    padding-top: 200px;
+  }
+  .sectionFour .workBetter .googleProfile {
+    width: 55%;
+    height: 70vh;
+  }
+  .sectionFour .workBetter .googleProfile #myVideo {
+    width: 90%;
+    height: 70vh;
+    margin-top: -20px;
+    margin-left: 90px;
+  }
 }
 @media (max-width: 576px) {
   header {
@@ -1218,7 +1699,7 @@ header #creat {
   .mainBar {
     width: 100%;
     height: 48vh;
-    margin-top: -40px;
+    margin-top: -10px;
     display: block;
   }
   .mainBar h2, .mainBar .colorDiv, .mainBar .colorDi, .mainBar .colorD, .mainBar p {
@@ -1237,7 +1718,7 @@ header #creat {
   }
   .mainBar .helpYou {
     width: 100%;
-    height: 32vh;
+    height: 35vh;
     border: 1px solid #E0E0E0;
     background: rgba(208, 208, 208, 0.201);
     color: #202124;
@@ -1249,7 +1730,7 @@ header #creat {
   }
   .mainBar .buildYou {
     width: 100%;
-    height: 32vh;
+    height: 35vh;
     border: 1px solid #E0E0E0;
     background: rgba(208, 208, 208, 0.201);
     color: #202124;
@@ -1261,7 +1742,7 @@ header #creat {
   }
   .mainBar .protectYou {
     width: 100%;
-    height: 32vh;
+    height: 35vh;
     border: 1px solid #E0E0E0;
     background: rgba(208, 208, 208, 0.201);
     color: #202124;
@@ -1286,5 +1767,39 @@ header #creat {
     margin-top: 18px;
     margin-left: 16px;
     font-size: 27px;
+  }
+  .readyTo {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    top: 480px;
+  }
+  .readyTo .profileGoogle {
+    width: 40%;
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    left: 140px;
+    text-align: center;
+  }
+  .readyTo .profileGoogle img {
+    margin-left: -20px;
+  }
+  .readyTo .profileGoogle h1 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: -10px;
+    margin-top: -20px;
+    color: #202124;
+    font-weight: 500;
+  }
+  .readyTo p {
+    width: 100%;
+    padding-top: 270px;
+    margin-left: 0px;
+    text-align: center;
+    color: #202124;
+    font-size: 16px;
+    line-height: 26px;
   }
 }/*# sourceMappingURL=style.css.map */
