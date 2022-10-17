@@ -33,6 +33,11 @@
 @import './section2';
 @import './section3';
 @import './section4';
+@import './section5';
+@import './section6';
+@import './section7';
+@import './section8';
+@import './section9';
 // @import './section';
 @media (min-width: 1200px) {
     @import './large/large';
@@ -40,6 +45,11 @@
     @import './large/section2';
     @import './large/section3';
     @import './large/section4';
+    @import './large/section5';
+    @import './large/section6';
+    @import './large/section7';
+    @import './large/section8';
+    @import './large/section9';
     // @import './large/section';
 }
 
@@ -49,6 +59,11 @@
     @import './normal/section2';  
     @import './normal/section3';
     @import './normal/section4';
+    @import './normal/section5';
+    @import './normal/section6';
+    @import './normal/section7';
+    @import './normal/section8';
+    @import './normal/section9';
     // @import './normal/section';
 }
 
@@ -59,6 +74,11 @@
     @import './tablet/section2';
     @import './tablet/section3';
     @import './tablet/section4';
+    @import './tablet/section5';
+    @import './tablet/section6';
+    @import './tablet/section7';
+    @import './tablet/section8';
+    @import './tablet/section9';
 }
 
 @media (max-width: 576px) {
@@ -68,4 +88,9 @@
     @import './mobile/section2';
     @import './mobile/section3';
     @import './mobile/section4';
+    @import './mobile/section5';
+    @import './mobile/section6';
+    @import './mobile/section7';
+    @import './mobile/section8';
+    @import './mobile/section9';
 }

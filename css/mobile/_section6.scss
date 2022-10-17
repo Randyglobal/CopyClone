@@ -1,21 +1,24 @@
-.sectionFour{
+.sectionFive{
     width: 100%;
     height: 70px;
     position: relative;
-    margin-top: 350px;
+    margin-top: 100px;
 
     .topSection{
-        width: 95%;
+        width: 80%;
         height: 50px;
         position: absolute;
-        left: 30px;
+        left: 50px;
+        top: 370px;
+        z-index: 3;
         display: flex;
 
         .divOne{
             width: 33.33%;
             height: 5px;
             background: rgba(128, 128, 128, 0.334);
-            margin-top: 40px;
+            margin-top: 80px;
+            margin-left: -10px;
             border: none;
             outline: none;
             text-align: center;
@@ -30,6 +33,7 @@
             }
             
             p{
+                display: none;
                margin-top: -40px;
                font-size: 16px;
                font-weight: 500;
@@ -40,31 +44,36 @@
     width: 100%;
     height: 70vh;
     position: absolute;
-    top: 60px;
-    display: flex;
+    top: 0px;
+    display: block;
 
     .googleInfo{
-        width: 38%;
-        height: 70vh;
+        width: 100%;
+        height: 40vh;
         color: $text_color;
+        position: absolute;
+        top: 90px;
+        text-align: center;
         // margin-left: 10px;
     
         p{
-            padding-left: 30px;
+            padding-left: 0px;
             line-height: 25px;
-            padding-top: 150px;
+            padding-top: 210px;
         }
        }
     
        .googleProfile{
-        width: 55%;
-        height: 70vh;
+        width: 100%;
+        height: 30vh;
+        position: absolute;
+        top: 0;
     
         #myVideo{
-            width: 90%;
-            height: 70vh;
-            margin-top: -40px;
-            margin-left: 90px;
+            width: 100%;
+            height: 40vh;
+            margin-top: 2px;
+            margin-left: -5px;
         }
        }
     }
@@ -73,31 +82,35 @@
         width: 100%;
     height: 70vh;
     position: absolute;
-    top: 60px;
-    display: flex;
+    top: 0px;
+    display: block;
 
     .googleImport{
-        width: 38%;
-        height: 70vh;
+        width: 100%;
+        height: 40vh;
         color: $text_color;
-        // margin-left: 10px;
+        position: absolute;
+        top: 90px;
+        text-align: center;
     
         p{
             padding-left: 30px;
             line-height: 25px;
-            padding-top: 150px;
+            padding-top: 200px;
         }
        }
     
        .googleProfile{
-        width: 55%;
-        height: 70vh;
+        width: 100%;
+        height: 30vh;
+        position: absolute;
+        top: 0;
     
         #myVideo{
-            width: 90%;
-            height: 70vh;
-            margin-top: -150px;
-            margin-left: 90px;
+            width: 100%;
+            height: 40vh;
+            margin-top: 2px;
+            margin-left: -10px;
         }
        }
     }

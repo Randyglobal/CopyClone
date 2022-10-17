@@ -72,7 +72,7 @@
             width: 100%;
             height: 40vh;
             margin-top: 2px;
-            margin-left: -30px;
+            margin-left: -10px;
         }
        }
     }
@@ -81,14 +81,16 @@
         width: 100%;
     height: 70vh;
     position: absolute;
-    top: 60px;
-    display: flex;
+    top: 0px;
+    display: block;
 
     .googleImport{
-        width: 38%;
-        height: 70vh;
+        width: 100%;
+        height: 40vh;
         color: $text_color;
-        // margin-left: 10px;
+        position: absolute;
+        top: 90px;
+        text-align: center;
     
         p{
             padding-left: 30px;
@@ -98,14 +100,16 @@
        }
     
        .googleProfile{
-        width: 55%;
-        height: 70vh;
+        width: 100%;
+        height: 30vh;
+        position: absolute;
+        top: 0;
     
         #myVideo{
-            width: 90%;
-            height: 70vh;
-            margin-top: -20px;
-            margin-left: 90px;
+            width: 100%;
+            height: 40vh;
+            margin-top: 2px;
+            margin-left: -10px;
         }
        }
     }
