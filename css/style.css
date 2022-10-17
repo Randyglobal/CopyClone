@@ -2978,7 +2978,7 @@ header #creat {
     height: 50px;
     position: absolute;
     left: 50px;
-    top: 400px;
+    top: 425px;
     z-index: 3;
     display: flex;
   }
@@ -3113,7 +3113,7 @@ header #creat {
     height: 50px;
     position: absolute;
     left: 50px;
-    top: 400px;
+    top: 425px;
     z-index: 3;
     display: flex;
   }
@@ -3230,7 +3230,7 @@ header #creat {
   }
   .readyEmply p {
     width: 100%;
-    padding-top: 370px;
+    padding-top: 390px;
     margin-left: 0px;
     text-align: center;
     color: #202124;
@@ -3248,7 +3248,7 @@ header #creat {
     height: 50px;
     position: absolute;
     left: 50px;
-    top: 410px;
+    top: 425px;
     z-index: 3;
     display: flex;
   }
