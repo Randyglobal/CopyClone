@@ -2978,7 +2978,7 @@ header #creat {
     height: 50px;
     position: absolute;
     left: 50px;
-    top: 370px;
+    top: 400px;
     z-index: 3;
     display: flex;
   }
@@ -3020,7 +3020,7 @@ header #creat {
     text-align: center;
   }
   .sectionFour .autoFill .googleInfo p {
-    padding-left: 30px;
+    padding-left: 10px;
     line-height: 25px;
     padding-top: 200px;
   }
@@ -3052,7 +3052,7 @@ header #creat {
     text-align: center;
   }
   .sectionFour .workBetter .googleImport p {
-    padding-left: 30px;
+    padding-left: 10px;
     line-height: 25px;
     padding-top: 200px;
   }
@@ -3113,7 +3113,7 @@ header #creat {
     height: 50px;
     position: absolute;
     left: 50px;
-    top: 370px;
+    top: 400px;
     z-index: 3;
     display: flex;
   }
@@ -3156,7 +3156,7 @@ header #creat {
     text-align: center;
   }
   .sectionFive .autoFill .googleInfo p {
-    padding-left: 0px;
+    padding-left: 10px;
     line-height: 25px;
     padding-top: 210px;
   }
@@ -3188,7 +3188,7 @@ header #creat {
     text-align: center;
   }
   .sectionFive .workBetter .googleImport p {
-    padding-left: 30px;
+    padding-left: 10px;
     line-height: 25px;
     padding-top: 200px;
   }
@@ -3219,7 +3219,7 @@ header #creat {
     left: 30px;
   }
   .readyEmply .profileGoogle img {
-    margin-left: 60px;
+    margin-left: 40px;
   }
   .readyEmply .profileGoogle h1 {
     font-size: 30px;
@@ -3230,7 +3230,7 @@ header #creat {
   }
   .readyEmply p {
     width: 100%;
-    padding-top: 340px;
+    padding-top: 370px;
     margin-left: 0px;
     text-align: center;
     color: #202124;
@@ -3248,7 +3248,7 @@ header #creat {
     height: 50px;
     position: absolute;
     left: 50px;
-    top: 420px;
+    top: 410px;
     z-index: 3;
     display: flex;
   }
@@ -3291,7 +3291,7 @@ header #creat {
     text-align: center;
   }
   .sectionSix .autoFill .googleInfo p {
-    padding-left: 0px;
+    padding-left: 10px;
     line-height: 25px;
     padding-top: 210px;
   }
@@ -3323,7 +3323,7 @@ header #creat {
     text-align: center;
   }
   .sectionSix .workBetter .googleImport p {
-    padding-left: 30px;
+    padding-left: 10px;
     line-height: 25px;
     padding-top: 200px;
   }
